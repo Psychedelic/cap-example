@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "dfx": "0.8.1",
+  "canisters": {
+    "cap-example": {
+      "build": "node build.js",
+      "candid": "candid/cap-example.did",
+      "wasm": "target/wasm32-unknown-unknown/release/cap_example-rel-opt.wasm",
+      "type": "custom"
+    }
+  },
+  "networks": {
+    "local": {
+      "bind": "127.0.0.1:8000",
+      "type": "ephemeral"
+    }
+  }
+}
