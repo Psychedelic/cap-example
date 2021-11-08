@@ -5,7 +5,7 @@
     "cap-example": {
       "build": "node build.js",
       "candid": "candid/cap-example.did",
-      "wasm": "target/wasm32-unknown-unknown/release/cap_example-rel-opt.wasm",
+      "wasm": "target/wasm32-unknown-unknown/release/cap_example-opt.wasm",
       "type": "custom"
     }
   },
