@@ -48,7 +48,7 @@ pub async fn get_owner() -> Principal {
 #[update(name = "setup_cap")]
 pub async fn setup_cap(){
     let cycles_to_give = 100000000000;
-    handshake(cycles_to_give);
+    handshake(cycles_to_give, None);
 }
 
 pub struct MintDetails {
